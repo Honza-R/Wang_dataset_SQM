@@ -1,3 +1,7 @@
+These data have been introduced in the following paper, please refer to it for more details and don't forget to cite it:
+
+Mehran Jalaie, Jindřich Fanfrlík, Adam Pecina, Martin Lepšík, and Jan Řezáč; submitted. 
+
 Wang 2015 dataset - pool of poses, SQM scoring
 ==============================================
 
@@ -45,7 +49,7 @@ The ligand poses of the expanded set of Zariquiey structures are named according
 - The manually modified poses are denoted as `[ligand name]_pose_manual`.
 - The first docking pose is named just as `[ligand name]` and the other docking poses are named `[ligand name]_pose_[number]`.
 
-Scores obtained with standard scoring functions are available in the `scores` subdirectory.
+Scores obtained with standard scoring functions are available in the `scores` subdirectory for the set of Zariquiey structures.
 
 References
 ----------
