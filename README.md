@@ -13,7 +13,7 @@ The Wang 2015 data set consists of 8 target proteins, each with a series of liga
 The Zariquiey structures are expanded by adding pool of poses obtainned by manual modifications and tamplate-based docking. 
 
 | Target   | Ligands | Protein PDB code                           | 
-|----------|---------|--------------------------------------------|
+| :------- | :------ | :----------------------------------------- |
 | BACE     | 36      | 4DJX (for Zariquiey) & 4DJW (for Ross set) |
 | CDK2     | 16      | 1H1Q                                       |
 | JNK1     | 21      | 2GMX                                       |
@@ -34,13 +34,11 @@ The ligand poses of the expanded set of Zariquiey structures are named according
 - The manually modified poses are denoted as `[ligand name]_pose_manual`.
 - The first docking pose is named just as `[ligand name]` and the other docking poses are named `[ligand name]_pose_[number]`.
 
-Protein structures
-^^^^^^^^^^^^^^^^^^
+**Protein structures**
 
 The structure of the whole protein target prepared for docking is available as `proteined_anealed.pdb` in the subdirectory `protein`.
 
-Binding free energies and scores
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+**Binding free energies and scores**
 
 The free energies and scores are provided as:
 - The experimental binding free energies are available in the `experimental_dG.txt` files.
@@ -48,8 +46,7 @@ The free energies and scores are provided as:
 - The selected SQM2.20' score of the best pose, i.e. pose with ithe lowest SQM energy, are summarized in `SQM2.20_selected_poses.txt` files. (The SQM energies of the optimized complexes are available in the `SQM_energies.txt` files.)
 - For the Zariquiey set, the scores obtained with standard scoring functions are available in the `scores` subdirectory.
 
-SQM-optimized structures of the complexes
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+**SQM-optimized structures of the complexes**
 
 The structures of the optimized P-L complexes are stored in the subdirectory `structures` of each protein target. Each ligand pose has its own subdirectory containing: 
 - `ligand.sdf` - The geometry of the ligand in the optimized complex. 
