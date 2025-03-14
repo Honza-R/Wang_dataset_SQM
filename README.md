@@ -3,7 +3,7 @@ Wang 2015 dataset - pool of poses and SQM scoring
 
 Additional poses and SQM scoring results for the Wang 2015 dataset of protein-ligand complexes
 
-Cite as: Mehran Jalaie, Jindřich Fanfrlík, Adam Pecina, Martin Lepšík, and Jan Řezáč; *ChemRxiv preprint*, **2025**.
+Cite as: M. Jalaie, J. Fanfrlík, A. Pecina, M. Lepšík and J. Řezáč; *ChemRxiv preprint*, **2025**. (https://doi.org/10.26434/chemrxiv-2025-38lf5)
 
 General information
 -------------------
